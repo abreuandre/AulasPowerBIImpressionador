@@ -12,4 +12,13 @@ Tipo do Pedido = IF(fVendas[Qtd Vendida]=1, "Pedido Único", "Pedido Múltiplo")
 
 
 
+Introdução a Medida (Parte 1)
+
+Total Vendas = SUM(fVendas[Qtd Vendida])
+
+Total Devoluções = SUM('fDevoluções'[Qtd Devolvida])
+
+% Devoluções = [Total Devoluções]/[Total Vendas]
+
+
 
