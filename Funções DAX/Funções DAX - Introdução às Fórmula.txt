@@ -1,0 +1,15 @@
+Funções DAX - Introdução às Fórmulas DAX(Data Analysis Expressions)
+
+As fórmulas DAX são usadas em 2 casos:
+-Criando colunas calculadas para trazer vários valores;
+-Criando medida que traz apenas 1 valor.
+
+Introdução a Colunas Calculadas
+
+Exemplos: Suponha que terão desconto nas vendas o cliente que levar mais de uma unidade de um produto.
+
+Tipo do Pedido = IF(fVendas[Qtd Vendida]=1, "Pedido Único", "Pedido Múltiplo")
+
+
+
+
